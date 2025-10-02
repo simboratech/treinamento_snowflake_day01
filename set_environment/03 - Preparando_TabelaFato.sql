@@ -1,4 +1,4 @@
--- Imporante setar o contexto da role responsável
+-- Importante setar o contexto da role responsável
 USE ROLE SYSADMIN;
 USE DATABASE DW_SALES1;
 USE SCHEMA SALES1;
@@ -74,3 +74,4 @@ SELECT
  ,(SELECT ROW_COUNT FROM SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'TPCH_SF100' AND TABLE_NAME = 'LINEITEM' ) as expected
 
  ,'Check number of rows' as description;
+
