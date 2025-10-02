@@ -1,6 +1,6 @@
 -- Criando ambiente
 
--- Imporante setar o contexto da role responsável
+-- Importante setar o contexto da role responsável
 USE ROLE SYSADMIN;
 
 -- Cria os objetos de database e schema
