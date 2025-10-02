@@ -1,4 +1,4 @@
--- Importantes sempre setar o contexto
+-- Importante sempre setar o contexto
 -- Role (sysadmin pq ela é comparada ao dba dentro do snowflake)
 USE ROLE SYSADMIN;
 
@@ -47,4 +47,5 @@ CREATE OR REPLACE WAREHOUSE XLARGE_WH WITH
    MIN_CLUSTER_COUNT = 1 
    MAX_CLUSTER_COUNT = 1 
    SCALING_POLICY = 'STANDARD';
+
 
